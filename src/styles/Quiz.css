@@ -1,0 +1,26 @@
+.quiz_body {
+    display: flex;
+    margin: 20px auto;
+    height: 100vh;
+    width: 800px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.course_title {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    width: 750px;
+}

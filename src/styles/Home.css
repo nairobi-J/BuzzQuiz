@@ -1,0 +1,132 @@
+/* :root {
+    --clr-primary: #070f2b;
+    --clr-secondary: #1b1a55;
+    --clr-accent: #ebf400;
+    --clr-gradient: linear-gradient(
+        45deg,
+        var(--clr-primary) 0%,
+        var(--clr-secondary) 100%
+    );
+}
+.home_body {
+    height: 100vh;
+    margin: 24px;
+}
+.app_title {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--clr-accent);
+    text-align: left;
+}
+
+.body_layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.header_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title_body {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    min-width: 48px;
+    overflow-wrap: break-word;
+    margin-bottom: 16px;
+}
+button {
+    background-color: #ebf400;
+    color: #1b1a55;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 8px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1b1a55;
+    color: white;
+}
+.user-menu {
+    position: relative;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 8px;
+    color: var(--clr-secondary);
+    background-color: #ebf400;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+}
+.user-menu:hover {
+    background-color: #1b1a55;
+    color: white;
+}
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    margin-left: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--clr-accent);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content span {
+    display: block;
+    padding: 8px 16px;
+    color: var(--clr-secondary);
+    font-size: 18px;
+}
+
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.course:hover {
+    background-color: var(--clr-secondary);
+    color: whitesmoke;
+}
+.logout:hover {
+    background-color: var(--clr-secondary);
+    color: whitesmoke;
+}
+
+.user-menu:hover .dropdown-content {
+    display: block;
+} */

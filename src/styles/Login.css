@@ -1,0 +1,68 @@
+:root {
+    --clr-primary: #070f2b;
+    --clr-secondary: #1b1a55;
+    --clr-accent: #ebf400;
+    --clr-gradient: linear-gradient(
+        45deg,
+        var(--clr-primary) 0%,
+        var(--clr-secondary) 100%
+    );
+}
+.login_body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: auto;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: fit-content;
+    border: 2px solid var(--clr-accent);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form_field {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+input {
+    background: #f2f2f2;
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+
+button:disabled {
+    cursor: default;
+}
+h1 {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}

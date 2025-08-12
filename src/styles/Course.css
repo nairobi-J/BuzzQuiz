@@ -1,0 +1,109 @@
+/* :root {
+    
+  
+    --clr-gradient: linear-gradient(
+        45deg,
+        var(--clr-primary) 0%,
+        var(--clr-secondary) 100%
+    );
+} */
+.course_body {
+    height: 100vh;
+    width: 100%;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.create_course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    border: 2px solid var(--clr-accent);
+    border-radius: 10px;
+}
+.create_course h2 {
+    font-family: serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: var(--clr-secondary);
+}
+.create_course input {
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    flex: 1;
+}
+.create_course button {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--clr-accent);
+    color: var(--clr-primary);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.course_table h2 {
+    font-family: serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+   
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px;
+}
+.course_table {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    margin: 20px;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.course_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course_table th,
+.course_table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--clr-secondary);
+    color: black;
+}
+
+.course_table th {
+    
+    color: white;
+    background-color: #164f91;
+}
+.course_table button {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #164f91;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
