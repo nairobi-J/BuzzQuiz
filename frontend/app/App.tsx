@@ -9,7 +9,10 @@ import {
   BookOpen,
   History,
   LogOut,
+  
 } from 'lucide-react';
+// Add to your existing lucide-react imports
+import { Settings } from 'lucide-react';  // Add this line
 import NavLink from './components/NavLink';
 import Courses from './pages/Courses';
 
