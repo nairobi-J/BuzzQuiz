@@ -17,7 +17,12 @@ dotenv.config();
 
 /**app declaration */
 const app = express();
+app.get('/api/user/all', (req, res) => {
+  res.json([{id: 1, name: 'Test User'}, {id: 2, name: 'Another User'}]);
+});
 
+// Health check
+app.get('/health', (req, res) => res.send('OK'));
 /**app  middleware */
 app.use(morgan('tiny'));
 app.use(cors());
