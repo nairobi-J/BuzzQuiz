@@ -47,10 +47,13 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
-      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">
+     
+     
+      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">  
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-6">Welcome Back</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
+           
             <label className="block text-sm font-medium text-gray-700">Username</label>
             <input
               type="text"
@@ -69,6 +72,7 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               required
             />
+             
           </div>
           {error && <p className="text-red-500 text-sm text-center">{error}</p>}
           <button
@@ -79,12 +83,8 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
             {loading ? 'Logging In...' : 'Login'}
           </button>
         </form>
-        <p className="mt-4 text-center text-sm text-gray-600">
-          Dont have an account?{' '}
-          <button onClick={onNavigateToRegister} className="text-indigo-600 hover:text-indigo-500 font-semibold">
-            Register here
-          </button>
-        </p>
+        <div className='flex p-4 pl-2'> Username:Nusrat, Password:jerin</div>
+       
       </div>
     </div>
   );

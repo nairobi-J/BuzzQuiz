@@ -87,12 +87,7 @@ const RegisterPage = ({ onRegisterSuccess, onNavigateToLogin }) => {
             {loading ? 'Registering...' : 'Register'}
           </button>
         </form>
-        <p className="mt-4 text-center text-sm text-gray-600">
-          Already have an account?{' '}
-          <button onClick={onNavigateToLogin} className="text-indigo-600 hover:text-indigo-500 font-semibold">
-            Login
-          </button>
-        </p>
+        
       </div>
     </div>
   );
