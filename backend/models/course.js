@@ -15,7 +15,13 @@ const courseSchema = new mongoose.Schema({
     creatorName:{
         type: String,
         required: true
-    }
+    },
+    creatorID: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'User',
+            required: true
+    },
+
 }, {
     timestamps: true
 });

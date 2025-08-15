@@ -10,7 +10,7 @@ export const createCourse = async (req, res) => {
     try {
         const { courseName, description, creatorName } = req.body;
         // Create a new course using the Mongoose model
-        const newCourse = await Course.create({ courseName, description, creatorName });
+        const newCourse = await Course.create({ courseName, description, creatorName, creatorID: req.user.userId });
 
         res.status(201).json({ courseId: newCourse._id });
         console.log('Course created successfully');

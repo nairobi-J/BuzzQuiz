@@ -7,7 +7,7 @@ import verifyToken from '../middleware/verifyToken.js'; // Assuming you have thi
 const router = Router();
 
 // Create a new question
-router.post('/create',verifyToken,validateQuestion,  controller.createQuestion);
+router.post('/create',verifyToken, checkRole(['admin','teacher']),validateQuestion,  controller.createQuestion);
 
 // Get questions by quiz ID
 router.get('/:id', controller.getQuestionsByQuizId);
