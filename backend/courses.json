@@ -1,0 +1,1686 @@
+[
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e03"
+    },
+    "quizTitle": "Data Structures Basics",
+    "description": "Fundamental concepts of data structures.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 7,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e04"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e05"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e06"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e07"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e08"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e09"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e0a"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0b"
+    },
+    "quizTitle": "Sorting Algorithms",
+    "description": "Test your knowledge on various sorting algorithms.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 6,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e0c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e0d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e0e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e0f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e10"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e11"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e12"
+    },
+    "quizTitle": "Graph Theory",
+    "description": "Quizzes on graph traversal and algorithms.",
+    "duration": 25,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 8,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e13"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e14"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e15"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e16"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e17"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e18"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e19"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e1a"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1b"
+    },
+    "quizTitle": "Network Topologies",
+    "description": "Test your understanding of different network layouts.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e05",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e1c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e1d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e1e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e1f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e20"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e21"
+    },
+    "quizTitle": "TCP/IP Protocol Suite",
+    "description": "Quiz on the fundamental protocols of the internet.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e05",
+    "numQuestions": 7,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e22"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e23"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e24"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e25"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e26"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e27"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e28"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e29"
+    },
+    "quizTitle": "Network Security",
+    "description": "Questions about common network security threats and defenses.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e05",
+    "numQuestions": 8,
+    "passingScore": 85,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e2a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e2b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e2c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e2d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e2e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e2f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e30"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e31"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e32"
+    },
+    "quizTitle": "Relational Database Concepts",
+    "description": "Quiz on the core principles of relational databases.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f99a22edb70c71256cfaf",
+    "numQuestions": 6,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e33"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e34"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e35"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e36"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e37"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e38"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e39"
+    },
+    "quizTitle": "SQL Fundamentals",
+    "description": "Test your knowledge of Structured Query Language.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f99a22edb70c71256cfaf",
+    "numQuestions": 8,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e3a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e3b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e3c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e3d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e3e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e3f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e40"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e41"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e42"
+    },
+    "quizTitle": "Database Normalization",
+    "description": "Questions on database normalization forms.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f99a22edb70c71256cfaf",
+    "numQuestions": 5,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e43"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e44"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e45"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e46"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e47"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e48"
+    },
+    "quizTitle": "Operating System Concepts",
+    "description": "Introduction to operating systems.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df6",
+    "numQuestions": 7,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e49"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e4f"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e50"
+    },
+    "quizTitle": "Process Management",
+    "description": "Test on processes, threads, and scheduling.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df6",
+    "numQuestions": 8,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e51"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e52"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e53"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e54"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e55"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e56"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e57"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e58"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e59"
+    },
+    "quizTitle": "Memory Management",
+    "description": "Questions on virtual memory and memory allocation.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df6",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e5a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e5b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e5c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e5d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e5e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e5f"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e60"
+    },
+    "quizTitle": "AI Principles",
+    "description": "Basic concepts of Artificial Intelligence.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df7",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e61"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e62"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e63"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e64"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e65"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e66"
+    },
+    "quizTitle": "Machine Learning Models",
+    "description": "Quiz on different types of ML models.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df8",
+    "numQuestions": 8,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e67"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e68"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e69"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e6a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e6b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e6c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e6d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e6e"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6f"
+    },
+    "quizTitle": "Cybersecurity Threats",
+    "description": "Quiz on common cybersecurity threats.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df9",
+    "numQuestions": 6,
+    "passingScore": 85,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e70"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e71"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e72"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e73"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e74"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e75"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e76"
+    },
+    "quizTitle": "Cloud Computing Models",
+    "description": "Questions on different cloud service models.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfa",
+    "numQuestions": 5,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e77"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e78"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e79"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e7a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e7b"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7c"
+    },
+    "quizTitle": "Software Development Life Cycle",
+    "description": "Quiz on SDLC models and methodologies.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfb",
+    "numQuestions": 7,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e7d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e7e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e7f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e80"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e81"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e82"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e83"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e84"
+    },
+    "quizTitle": "CPU Architecture",
+    "description": "Questions on CPU components and their functions.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfc",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e85"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e86"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e87"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e88"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e89"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8a"
+    },
+    "quizTitle": "Distributed Systems Concepts",
+    "description": "Quiz on the principles of distributed computing.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfd",
+    "numQuestions": 8,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e8b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e8c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e8d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e8e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e8f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e90"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e91"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e92"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e93"
+    },
+    "quizTitle": "Blockchain Fundamentals",
+    "description": "Basic concepts of blockchain technology.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfe",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e94"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e95"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e96"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e97"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e98"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e99"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9a"
+    },
+    "quizTitle": "Natural Language Processing",
+    "description": "Introduction to NLP concepts.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dff",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41e9b"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e9c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e9d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e9e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41e9f"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea0"
+    },
+    "quizTitle": "Quantum Computing Basics",
+    "description": "Quiz on the fundamental principles of quantum computing.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e00",
+    "numQuestions": 6,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ea1"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea2"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea4"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea5"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea6"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea7"
+    },
+    "quizTitle": "DevOps Practices",
+    "description": "Questions on common DevOps practices and tools.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e01",
+    "numQuestions": 8,
+    "passingScore": 85,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ea8"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ea9"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eaa"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eab"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eac"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ead"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eae"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eaf"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb0"
+    },
+    "quizTitle": "Advanced Data Structures",
+    "description": "Quiz on advanced topics like B-trees and heaps.",
+    "duration": 25,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 9,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41eb1"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb2"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb4"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb5"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb6"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb7"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb8"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eb9"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eba"
+    },
+    "quizTitle": "Algorithms Analysis",
+    "description": "Questions on time and space complexity.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 6,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ebb"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ebc"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ebd"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ebe"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ebf"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec0"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec1"
+    },
+    "quizTitle": "IP Addressing",
+    "description": "Questions on IPv4 and IPv6 addressing.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e05",
+    "numQuestions": 5,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ec2"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec4"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec5"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec6"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec7"
+    },
+    "quizTitle": "Database Transactions",
+    "description": "Quiz on ACID properties and concurrency control.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f99a22edb70c71256cfaf",
+    "numQuestions": 7,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ec8"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ec9"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eca"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ecb"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ecc"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ecd"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ece"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ecf"
+    },
+    "quizTitle": "File Systems",
+    "description": "Questions on file system structure and management.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df6",
+    "numQuestions": 5,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ed0"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed1"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed2"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed4"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed5"
+    },
+    "quizTitle": "Search Algorithms",
+    "description": "Quizzes on different searching algorithms.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 6,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ed6"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed7"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed8"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ed9"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eda"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41edb"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41edc"
+    },
+    "quizTitle": "Machine Learning Supervised Learning",
+    "description": "Questions on supervised learning algorithms.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df8",
+    "numQuestions": 8,
+    "passingScore": 85,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41edd"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ede"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41edf"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee0"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee1"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee2"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee4"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee5"
+    },
+    "quizTitle": "Information Security",
+    "description": "Quiz on securing data and systems.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df9",
+    "numQuestions": 6,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ee6"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee7"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee8"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ee9"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eea"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eeb"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eec"
+    },
+    "quizTitle": "IaaS vs PaaS vs SaaS",
+    "description": "Differentiating between the three cloud service models.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfa",
+    "numQuestions": 5,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41eed"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eee"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41eef"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef0"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef1"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef2"
+    },
+    "quizTitle": "Agile Methodologies",
+    "description": "Questions on Agile and Scrum.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfb",
+    "numQuestions": 6,
+    "passingScore": 85,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41ef3"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef4"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef5"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef6"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef7"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41ef8"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef9"
+    },
+    "quizTitle": "CPU Pipelining",
+    "description": "Questions on instruction pipelining.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfc",
+    "numQuestions": 5,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41efa"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41efb"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41efc"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41efd"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41efe"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eff"
+    },
+    "quizTitle": "Consensus Algorithms",
+    "description": "Questions on consensus in distributed systems.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfd",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f00"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f01"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f02"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f03"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f04"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f05"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f06"
+    },
+    "quizTitle": "Smart Contracts",
+    "description": "Quiz on smart contracts and their applications.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dfe",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f07"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f08"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f09"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f0a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f0b"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0c"
+    },
+    "quizTitle": "NLP Applications",
+    "description": "Questions on real-world applications of NLP.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41dff",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f0d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f0e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f0f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f10"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f11"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f12"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f13"
+    },
+    "quizTitle": "Quantum Algorithms",
+    "description": "Quiz on fundamental quantum algorithms like Shor's and Grover's.",
+    "duration": 20,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e00",
+    "numQuestions": 8,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f14"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f15"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f16"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f17"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f18"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f19"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f1a"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f1b"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1c"
+    },
+    "quizTitle": "CI/CD Pipelines",
+    "description": "Questions on Continuous Integration and Continuous Deployment.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e01",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f1d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f1e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f1f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f20"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f21"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f22"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f23"
+    },
+    "quizTitle": "Introduction to Algorithms",
+    "description": "Introductory quiz for data structures and algorithms.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41df2",
+    "numQuestions": 7,
+    "passingScore": 70,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f24"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f25"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f26"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f27"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f28"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f29"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f2a"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2b"
+    },
+    "quizTitle": "Network Layer Protocols",
+    "description": "Quiz on network layer protocols like IP.",
+    "duration": 10,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f95a074f6631cc3a41e05",
+    "numQuestions": 5,
+    "passingScore": 80,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f2c"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f2d"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f2e"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f2f"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f30"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f31"
+    },
+    "quizTitle": "Database Query Optimization",
+    "description": "Questions on optimizing SQL queries.",
+    "duration": 15,
+    "creatorID": "689df743f3145b69edce2e9d",
+    "courseID": "689f99a22edb70c71256cfaf",
+    "numQuestions": 6,
+    "passingScore": 75,
+    "questions": [
+      {
+        "$oid": "689f964374f6631cc3a41f32"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f33"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f34"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f35"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f36"
+      },
+      {
+        "$oid": "689f964374f6631cc3a41f37"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  }
+]

@@ -1,0 +1,5790 @@
+[
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e04"
+    },
+    "questionText": "What is the purpose of a stack in data structures?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "To store data in a non-linear fashion",
+      "To follow a Last-In, First-Out (LIFO) principle",
+      "To access elements randomly",
+      "To maintain sorted order"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e05"
+    },
+    "questionText": "A queue follows which principle?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "Last-In, First-Out (LIFO)",
+      "First-In, First-Out (FIFO)",
+      "Random access",
+      "Hierarchical storage"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e06"
+    },
+    "questionText": "What is a linked list?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "A dynamic array",
+      "A collection of nodes where each node contains data and a pointer to the next node",
+      "A fixed-size data structure",
+      "A tree-based data structure"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e07"
+    },
+    "questionText": "True or False: An array is a linear data structure.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e08"
+    },
+    "questionText": "What is the Big O notation for inserting an element at the beginning of a singly linked list?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e09"
+    },
+    "questionText": "Which data structure is best for implementing a function call stack?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "Queue",
+      "Array",
+      "Stack",
+      "Linked List"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0a"
+    },
+    "questionText": "A hash table provides what kind of average case time complexity for search, insert, and delete operations?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e03",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0c"
+    },
+    "questionText": "What is the worst-case time complexity of Quick Sort?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0d"
+    },
+    "questionText": "Which sorting algorithm has a best-case time complexity of O(n)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "Merge Sort",
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0e"
+    },
+    "questionText": "True or False: Merge sort is an in-place sorting algorithm.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e0f"
+    },
+    "questionText": "Which of the following sorting algorithms is a comparison-based sort?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "Counting Sort",
+      "Radix Sort",
+      "Bucket Sort",
+      "Selection Sort"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e10"
+    },
+    "questionText": "What is the stable sorting algorithm?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "Quick Sort",
+      "Heap Sort",
+      "Merge Sort",
+      "Shell Sort"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e11"
+    },
+    "questionText": "What is the average time complexity of Insertion Sort?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e0b",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n log n)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e13"
+    },
+    "questionText": "Which algorithm finds the shortest path in a weighted graph with non-negative edge weights?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "DFS (Depth-First Search)",
+      "BFS (Breadth-First Search)",
+      "Dijkstra's Algorithm",
+      "Prim's Algorithm"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e14"
+    },
+    "questionText": "What is the purpose of Depth-First Search (DFS)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "To find the shortest path",
+      "To traverse a graph layer by layer",
+      "To explore as far as possible along each branch before backtracking",
+      "To find a minimum spanning tree"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e15"
+    },
+    "questionText": "True or False: A directed acyclic graph (DAG) contains a cycle.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e16"
+    },
+    "questionText": "What is the time complexity of BFS on a graph with V vertices and E edges?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "O(V)",
+      "O(E)",
+      "O(V+E)",
+      "O(V*E)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e17"
+    },
+    "questionText": "Which data structure is used to implement BFS?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "Stack",
+      "Queue",
+      "Linked List",
+      "Hash Table"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e18"
+    },
+    "questionText": "What does a cycle in a graph mean?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "There are no edges",
+      "There is a path from a vertex back to itself",
+      "The graph is disconnected",
+      "The graph is a tree"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e19"
+    },
+    "questionText": "Which algorithm is used to find a minimum spanning tree?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Prim's Algorithm",
+      "Floyd-Warshall Algorithm"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1a"
+    },
+    "questionText": "What does a topological sort of a DAG produce?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e12",
+    "options": [
+      "The shortest path",
+      "A linear ordering of vertices such that for every directed edge from u to v, u comes before v in the ordering",
+      "A minimum spanning tree",
+      "A set of all connected components"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1c"
+    },
+    "questionText": "In a star topology, what is at the center?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e1b",
+    "options": [
+      "A main bus line",
+      "A ring",
+      "A central hub or switch",
+      "A distributed network"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1d"
+    },
+    "questionText": "Which topology connects every device to every other device?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e1b",
+    "options": [
+      "Bus",
+      "Ring",
+      "Star",
+      "Mesh"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1e"
+    },
+    "questionText": "True or False: A bus topology is less expensive to install than a mesh topology.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e1b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e1f"
+    },
+    "questionText": "Which topology is most resilient to single-point failures?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e1b",
+    "options": [
+      "Star",
+      "Bus",
+      "Ring",
+      "Mesh"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e20"
+    },
+    "questionText": "What does a ring topology look like?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e1b",
+    "options": [
+      "All devices connected to a central hub",
+      "All devices connected to a single cable",
+      "Each device connected to two neighbors to form a circle",
+      "A fully interconnected network"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e22"
+    },
+    "questionText": "What does TCP stand for?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "Transfer Control Protocol",
+      "Transmission Control Protocol",
+      "Transport Control Protocol",
+      "Terminal Control Protocol"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e23"
+    },
+    "questionText": "Which layer of the OSI model does the TCP/IP suite's Internet layer correspond to?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "Application Layer",
+      "Transport Layer",
+      "Network Layer",
+      "Data Link Layer"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e24"
+    },
+    "questionText": "What is the primary function of the Internet Protocol (IP)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "To provide reliable, ordered delivery of data",
+      "To route data packets across networks",
+      "To resolve domain names to IP addresses",
+      "To manage network congestion"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e25"
+    },
+    "questionText": "True or False: UDP is a connection-oriented protocol.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e26"
+    },
+    "questionText": "Which protocol is used for sending email?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "POP3"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e27"
+    },
+    "questionText": "The Transport Layer of the TCP/IP model is responsible for:",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "Physical transmission of data",
+      "Logical addressing and routing",
+      "End-to-end communication and data integrity",
+      "User application services"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e28"
+    },
+    "questionText": "What is a port number in TCP/IP?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e21",
+    "options": [
+      "A physical address of a network device",
+      "A logical address for a specific process or service on a host",
+      "An IP address",
+      "A network broadcast address"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2a"
+    },
+    "questionText": "What is a Denial-of-Service (DoS) attack?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "Stealing confidential data",
+      "Infecting a system with malware",
+      "Overloading a server with traffic to disrupt its services",
+      "Unauthorized access to a network"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2b"
+    },
+    "questionText": "What is a firewall used for?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "To prevent physical access to a server room",
+      "To protect a network by filtering incoming and outgoing traffic",
+      "To monitor power usage in a data center",
+      "To provide a backup power source"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2c"
+    },
+    "questionText": "What is a phishing attack?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "A type of malware that encrypts files",
+      "An attack that uses social engineering to trick users into revealing sensitive information",
+      "An attack that disrupts network services",
+      "A technique to bypass a firewall"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2d"
+    },
+    "questionText": "True or False: A VPN encrypts your internet traffic.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2e"
+    },
+    "questionText": "What does 'spoofing' mean in a network security context?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "Hiding your IP address",
+      "Impersonating a legitimate device or user",
+      "Changing the DNS server settings",
+      "Using a public Wi-Fi network"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e2f"
+    },
+    "questionText": "What is the primary goal of cryptography?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "To speed up network traffic",
+      "To hide network traffic from administrators",
+      "To secure communication by converting data into an unreadable format",
+      "To monitor network usage"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e30"
+    },
+    "questionText": "What is a keylogger?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "A type of firewall",
+      "A malicious software that records keystrokes",
+      "A network monitoring tool",
+      "A tool for creating strong passwords"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e31"
+    },
+    "questionText": "True or False: A strong password policy is a key component of network security.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e29",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e33"
+    },
+    "questionText": "What is a primary key in a relational database?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "A key used for encryption",
+      "A column or set of columns that uniquely identifies each row in a table",
+      "A foreign key",
+      "An index for fast data retrieval"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e34"
+    },
+    "questionText": "What is a foreign key?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "A key that refers to a primary key in another table",
+      "A unique identifier for a table",
+      "A key that is not unique",
+      "A key for data sorting"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e35"
+    },
+    "questionText": "True or False: A database schema describes the structure of the database.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e36"
+    },
+    "questionText": "What is a 'row' in a relational database table also known as?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "Attribute",
+      "Tuple",
+      "Schema",
+      "Column"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e37"
+    },
+    "questionText": "What is the purpose of an index in a database?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "To store backup data",
+      "To prevent unauthorized access",
+      "To improve the speed of data retrieval operations",
+      "To create relationships between tables"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e38"
+    },
+    "questionText": "What does ACID stand for in the context of database transactions?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e32",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Integrity, Durability",
+      "Accessibility, Cohesion, Isolation, Data",
+      "Atomicity, Cohesion, Integrity, Data"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3a"
+    },
+    "questionText": "Which SQL statement is used to retrieve data from a database?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "UPDATE",
+      "DELETE",
+      "SELECT",
+      "INSERT"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3b"
+    },
+    "questionText": "How do you add a new record to a table?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "ADD INTO",
+      "UPDATE INTO",
+      "INSERT INTO",
+      "CREATE RECORD"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3c"
+    },
+    "questionText": "True or False: The 'WHERE' clause is used to filter records.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3d"
+    },
+    "questionText": "What is the purpose of the 'JOIN' clause in SQL?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "To update records in two tables",
+      "To combine rows from two or more tables based on a related column",
+      "To delete records from multiple tables",
+      "To create a new table from existing tables"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3e"
+    },
+    "questionText": "Which SQL aggregate function finds the average of a set of values?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "COUNT()",
+      "SUM()",
+      "AVG()",
+      "MAX()"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e3f"
+    },
+    "questionText": "What is a subquery in SQL?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "A query that modifies data",
+      "A query embedded within another query",
+      "A query that joins two tables",
+      "A query that creates a new table"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e40"
+    },
+    "questionText": "What does 'GROUP BY' do in a SELECT statement?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "It sorts the results in a specific order",
+      "It filters the results based on a condition",
+      "It groups rows that have the same values into summary rows",
+      "It adds new columns to the result set"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e41"
+    },
+    "questionText": "Which command is used to delete a table from the database?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e39",
+    "options": [
+      "DELETE TABLE",
+      "REMOVE TABLE",
+      "DROP TABLE",
+      "ERASE TABLE"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e43"
+    },
+    "questionText": "What is the primary goal of database normalization?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e42",
+    "options": [
+      "To speed up query performance",
+      "To reduce data redundancy and improve data integrity",
+      "To create complex data relationships",
+      "To make the database schema easier to read"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e44"
+    },
+    "questionText": "True or False: The 1NF (First Normal Form) requires all columns to be atomic.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e42",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e45"
+    },
+    "questionText": "What is a transitive dependency?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e42",
+    "options": [
+      "A dependency where a non-key attribute depends on a primary key",
+      "A dependency where a non-key attribute depends on another non-key attribute",
+      "A dependency where a primary key depends on a non-key attribute",
+      "A dependency where a key depends on another key"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e46"
+    },
+    "questionText": "Which normal form requires the elimination of partial dependencies?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e42",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e47"
+    },
+    "questionText": "What is the highest normal form?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e42",
+    "options": [
+      "1NF",
+      "3NF",
+      "BCNF",
+      "6NF"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e49"
+    },
+    "questionText": "What is the core of an operating system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "The shell",
+      "The kernel",
+      "The BIOS",
+      "The GUI"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4a"
+    },
+    "questionText": "What is multiprogramming?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "Running one program at a time",
+      "Running multiple programs simultaneously on a single CPU",
+      "Creating multiple copies of a program",
+      "Using multiple CPUs"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4b"
+    },
+    "questionText": "True or False: An operating system is responsible for managing hardware resources.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4c"
+    },
+    "questionText": "What is a user interface?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "A way to interact with the operating system",
+      "The internal logic of the OS",
+      "The set of hardware components",
+      "The file system"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4d"
+    },
+    "questionText": "Which type of OS is designed for real-time applications with strict deadlines?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "Batch OS",
+      "Distributed OS",
+      "Network OS",
+      "Real-time OS"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4e"
+    },
+    "questionText": "What is a system call?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "A call to a user-level function",
+      "A request by a program to the OS kernel to perform a service",
+      "A hardware interrupt",
+      "A function within a program's code"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e4f"
+    },
+    "questionText": "What is the purpose of a device driver?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e48",
+    "options": [
+      "To manage CPU resources",
+      "To provide an interface between the OS and a hardware device",
+      "To manage memory",
+      "To run application software"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e51"
+    },
+    "questionText": "What is a process?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "A program in secondary storage",
+      "A program in execution",
+      "A file on a disk",
+      "A piece of hardware"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e52"
+    },
+    "questionText": "What is a thread?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "A separate program",
+      "A path of execution within a process",
+      "A memory block",
+      "A hardware component"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e53"
+    },
+    "questionText": "What is the purpose of a scheduler?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "To manage files on disk",
+      "To allocate CPU time to processes",
+      "To manage network connections",
+      "To handle user input"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e54"
+    },
+    "questionText": "True or False: A single-threaded process can have multiple execution paths.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e55"
+    },
+    "questionText": "Which state does a process enter after it is created?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "Waiting",
+      "Running",
+      "Terminated",
+      "New"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e56"
+    },
+    "questionText": "What is a 'context switch'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "Changing the CPU's frequency",
+      "Saving the state of one process and loading the state of another",
+      "Switching between different operating systems",
+      "Moving data between RAM and hard disk"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e57"
+    },
+    "questionText": "What is a zombie process?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "A process that is waiting for I/O",
+      "A process that has completed execution but still has an entry in the process table",
+      "A process that is sleeping",
+      "A process that is using a lot of CPU resources"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e58"
+    },
+    "questionText": "What is the primary function of a Process Control Block (PCB)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e50",
+    "options": [
+      "To manage network connections for a process",
+      "To store the state and control information of a process",
+      "To store the executable code of a process",
+      "To manage memory for a process"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5a"
+    },
+    "questionText": "What is virtual memory?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "Physical RAM",
+      "Using disk space to extend the available RAM",
+      "Memory used by the CPU cache",
+      "Memory used by the GPU"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5b"
+    },
+    "questionText": "What is the purpose of a page table?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "To store file names",
+      "To manage network addresses",
+      "To map virtual addresses to physical addresses",
+      "To manage CPU registers"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5c"
+    },
+    "questionText": "True or False: Thrashing occurs when a computer spends most of its time swapping pages rather than executing application code.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5d"
+    },
+    "questionText": "Which memory allocation technique allocates memory to a process in a single contiguous block?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "Paging",
+      "Segmentation",
+      "Dynamic Partitioning",
+      "Contiguous Allocation"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5e"
+    },
+    "questionText": "What is a page fault?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "An error in the program's code",
+      "An electrical failure in the RAM",
+      "An event that occurs when a program tries to access a memory page that is not currently in physical memory",
+      "A failure in the CPU"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e5f"
+    },
+    "questionText": "What is fragmentation?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e59",
+    "options": [
+      "The process of breaking a program into smaller pieces",
+      "The state where memory space is available but not in contiguous blocks",
+      "A type of memory error",
+      "The process of creating a file"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e61"
+    },
+    "questionText": "What is the Turing Test?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e60",
+    "options": [
+      "A test to measure a computer's processing speed",
+      "A test to determine if a machine can exhibit intelligent behavior indistinguishable from that of a human",
+      "A test for software bugs",
+      "A test for network performance"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e62"
+    },
+    "questionText": "What is the main goal of a knowledge-based system in AI?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e60",
+    "options": [
+      "To perform complex calculations",
+      "To store and manipulate large amounts of data",
+      "To reason and solve problems using a knowledge base",
+      "To control robotic movements"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e63"
+    },
+    "questionText": "True or False: Machine learning is a subset of artificial intelligence.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e60",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e64"
+    },
+    "questionText": "What is the goal of an AI agent?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e60",
+    "options": [
+      "To replace human workers",
+      "To perceive its environment and take actions that maximize its chance of achieving its goals",
+      "To solve mathematical equations",
+      "To store and retrieve information"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e65"
+    },
+    "questionText": "Which of the following is an example of a weak AI?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e60",
+    "options": [
+      "A human-like robot with consciousness",
+      "A self-driving car",
+      "A superintelligent computer that can solve any problem",
+      "An AI system that can understand and feel emotions"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e67"
+    },
+    "questionText": "What is supervised learning?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "Learning from unlabeled data",
+      "Learning from data with a human supervisor",
+      "Learning from labeled data to make predictions or classifications",
+      "Learning through trial and error"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e68"
+    },
+    "questionText": "Which type of machine learning involves clustering data points?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Semi-supervised Learning"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e69"
+    },
+    "questionText": "True or False: A neural network is a form of deep learning.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6a"
+    },
+    "questionText": "Which algorithm is used for regression?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "K-Means",
+      "Linear Regression",
+      "Apriori",
+      "Principal Component Analysis"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6b"
+    },
+    "questionText": "What is the purpose of a cost function?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "To measure the performance of a model",
+      "To generate new data",
+      "To handle missing values",
+      "To visualize data"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6c"
+    },
+    "questionText": "What is overfitting in machine learning?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "When a model performs poorly on training data",
+      "When a model learns the training data too well and performs poorly on new, unseen data",
+      "When a model is too simple to capture the underlying patterns",
+      "When a model takes too long to train"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6d"
+    },
+    "questionText": "What is a 'feature' in a machine learning model?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "The final output of the model",
+      "An individual measurable property of a phenomenon being observed",
+      "A type of algorithm",
+      "A programming language"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e6e"
+    },
+    "questionText": "What is the purpose of cross-validation?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e66",
+    "options": [
+      "To increase the size of the dataset",
+      "To evaluate the performance of a model on unseen data",
+      "To reduce the number of features",
+      "To train the model faster"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e70"
+    },
+    "questionText": "What is malware?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "A type of firewall",
+      "A network protocol",
+      "Malicious software designed to disrupt computer operations or gain unauthorized access",
+      "A hardware component"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e71"
+    },
+    "questionText": "What is a botnet?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "A network of robots",
+      "A network of infected computers controlled by a single attacker",
+      "A type of encrypted network",
+      "A cybersecurity training program"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e72"
+    },
+    "questionText": "True or False: A man-in-the-middle attack involves an attacker intercepting communication between two parties.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e73"
+    },
+    "questionText": "What is a zero-day exploit?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "A vulnerability that is fixed on the same day it is discovered",
+      "A vulnerability in software that is unknown to the vendor and has no patch",
+      "An exploit that occurs on the first day of the year",
+      "A type of training exercise"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e74"
+    },
+    "questionText": "What is the principle of least privilege?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "Giving everyone administrator access",
+      "Granting users only the minimum access needed to perform their job functions",
+      "Granting all users the same level of access",
+      "Restricting all users from accessing any data"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e75"
+    },
+    "questionText": "What is a brute-force attack?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e6f",
+    "options": [
+      "An attack that uses social engineering",
+      "An attack that exploits a software vulnerability",
+      "An attack that tries every possible password until it finds the correct one",
+      "An attack that floods a network with traffic"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e77"
+    },
+    "questionText": "Which cloud service model provides access to a complete application?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e76",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "PaaS (Platform as a Service)",
+      "SaaS (Software as a Service)",
+      "FaaS (Function as a Service)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e78"
+    },
+    "questionText": "True or False: Public clouds are owned and operated by a single organization.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e76",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e79"
+    },
+    "questionText": "Which of the following is an example of an IaaS provider?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e76",
+    "options": [
+      "Google Docs",
+      "Microsoft Azure",
+      "Salesforce",
+      "Dropbox"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7a"
+    },
+    "questionText": "What is the key benefit of cloud computing?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e76",
+    "options": [
+      "It eliminates the need for any internet connection",
+      "It provides unlimited free storage",
+      "It offers scalability and on-demand access to computing resources",
+      "It only runs on one type of operating system"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7b"
+    },
+    "questionText": "What is a hybrid cloud?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e76",
+    "options": [
+      "A cloud that only provides IaaS",
+      "A cloud that only provides PaaS",
+      "A combination of a public cloud and a private cloud",
+      "A cloud located in multiple data centers"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7d"
+    },
+    "questionText": "What is the first phase in the traditional Waterfall SDLC model?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "Design",
+      "Coding",
+      "Testing",
+      "Requirements gathering"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7e"
+    },
+    "questionText": "What is the key principle of Agile software development?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "Following a strict, sequential process",
+      "Delivering a working product in small, iterative cycles",
+      "Minimizing all documentation",
+      "Avoiding communication between team members"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e7f"
+    },
+    "questionText": "True or False: The 'Spiral Model' of SDLC combines elements of the Waterfall model and prototyping.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e80"
+    },
+    "questionText": "Which phase of the SDLC focuses on creating the system's architecture and design?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "Analysis",
+      "Requirements",
+      "Design",
+      "Implementation"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e81"
+    },
+    "questionText": "What is a 'sprint' in Scrum methodology?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "A long-term project plan",
+      "A fixed-length time period for a development team to complete a set of tasks",
+      "A type of software bug",
+      "A meeting to discuss project issues"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e82"
+    },
+    "questionText": "What is a key disadvantage of the Waterfall model?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "It is too flexible",
+      "It requires too much communication",
+      "It is difficult to incorporate changes once a phase is completed",
+      "It is too expensive"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e83"
+    },
+    "questionText": "What does CI/CD stand for in software engineering?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e7c",
+    "options": [
+      "Code Integration / Code Deployment",
+      "Continuous Intelligence / Continuous Development",
+      "Continuous Integration / Continuous Deployment",
+      "Client Interface / Client Deployment"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e85"
+    },
+    "questionText": "What is the primary function of a CPU's control unit?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e84",
+    "options": [
+      "To perform arithmetic and logical operations",
+      "To store data temporarily",
+      "To direct the operation of the processor and control the flow of data",
+      "To connect to external devices"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e86"
+    },
+    "questionText": "What does ALU stand for?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e84",
+    "options": [
+      "Advanced Logic Unit",
+      "Arithmetic and Logic Unit",
+      "Application Logic Unit",
+      "Array Logic Unit"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e87"
+    },
+    "questionText": "True or False: A CPU register is a small, fast memory location within the CPU.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e84",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e88"
+    },
+    "questionText": "What is the purpose of the program counter (PC) register?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e84",
+    "options": [
+      "To store the result of a calculation",
+      "To hold the address of the next instruction to be executed",
+      "To store temporary data",
+      "To manage memory addresses"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e89"
+    },
+    "questionText": "What is the fetch-decode-execute cycle?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e84",
+    "options": [
+      "The process of starting a computer",
+      "The fundamental process of how a CPU executes instructions",
+      "The process of loading a program into memory",
+      "The process of storing data on a hard drive"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8b"
+    },
+    "questionText": "What is a 'distributed system'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "A single computer with multiple CPUs",
+      "A collection of independent computers that appears to its users as a single coherent system",
+      "A computer network with a single server",
+      "A single computer with multiple GPUs"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8c"
+    },
+    "questionText": "What is 'fault tolerance' in a distributed system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "The ability to handle malicious attacks",
+      "The ability of a system to continue operating despite the failure of one or more of its components",
+      "The ability to speed up computation",
+      "The ability to manage a large amount of data"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8d"
+    },
+    "questionText": "True or False: A distributed system has a single global clock.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8e"
+    },
+    "questionText": "What is 'concurrency' in a distributed system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "All processes run at the same speed",
+      "The execution of multiple tasks at the same time",
+      "The inability to share resources",
+      "The use of a single processor"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e8f"
+    },
+    "questionText": "What is the CAP theorem?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "A theorem about computer architecture",
+      "A theorem that states it's impossible for a distributed system to simultaneously provide all three of Consistency, Availability, and Partition Tolerance",
+      "A theorem about network bandwidth",
+      "A theorem about CPU performance"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e90"
+    },
+    "questionText": "What is 'load balancing'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "Ensuring all servers fail at the same time",
+      "Distributing network traffic across multiple servers",
+      "A type of network cable",
+      "A form of network security"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e91"
+    },
+    "questionText": "What is 'scalability' in a distributed system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "The ability of a system to handle increasing workloads by adding resources",
+      "The ability to run on a single machine",
+      "The ability to shrink the system's size",
+      "The ability to run without any power"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e92"
+    },
+    "questionText": "What is a 'remote procedure call' (RPC)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e8a",
+    "options": [
+      "A call to a function within the same program",
+      "A call to a function on a remote computer",
+      "A type of data structure",
+      "A network protocol for file transfer"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e94"
+    },
+    "questionText": "What is a 'blockchain'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "A type of computer network",
+      "A centralized database",
+      "A distributed, decentralized digital ledger",
+      "A type of cryptocurrency"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e95"
+    },
+    "questionText": "What is a 'block' in a blockchain?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "A single transaction",
+      "A collection of transactions",
+      "A computer on the network",
+      "A software program"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e96"
+    },
+    "questionText": "True or False: A blockchain is immutable, meaning its data cannot be altered retroactively.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e97"
+    },
+    "questionText": "What is 'mining' in the context of blockchain?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "The process of creating a new cryptocurrency",
+      "The process of verifying and adding new blocks to the blockchain",
+      "The process of stealing cryptocurrencies",
+      "The process of transferring ownership of a blockchain"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e98"
+    },
+    "questionText": "What is a 'smart contract'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "A contract written on paper",
+      "A computer program that automatically executes, controls, or documents a sequence of events",
+      "A legal agreement on a blockchain",
+      "A type of digital currency"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e99"
+    },
+    "questionText": "What is the primary benefit of decentralization in blockchain?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e93",
+    "options": [
+      "It allows a single entity to control the network",
+      "It makes the network faster",
+      "It eliminates the need for a central authority and increases security and transparency",
+      "It makes transactions more expensive"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9b"
+    },
+    "questionText": "What does NLP stand for?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e9a",
+    "options": [
+      "Natural Language Programming",
+      "Neural Learning Protocol",
+      "Natural Language Processing",
+      "Network Language Parsing"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9c"
+    },
+    "questionText": "What is 'tokenization' in NLP?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e9a",
+    "options": [
+      "The process of converting text into a sequence of words or symbols",
+      "The process of translating text into a different language",
+      "The process of summarizing a document",
+      "The process of correcting grammar"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9d"
+    },
+    "questionText": "True or False: Sentiment analysis is an NLP task.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41e9a",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9e"
+    },
+    "questionText": "What is the purpose of 'stemming' and 'lemmatization'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e9a",
+    "options": [
+      "To translate text",
+      "To reduce words to their root or base form",
+      "To create new words",
+      "To classify text into categories"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41e9f"
+    },
+    "questionText": "Which of the following is a common NLP task?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41e9a",
+    "options": [
+      "Image recognition",
+      "Text summarization",
+      "Speech synthesis",
+      "Robotic arm control"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea1"
+    },
+    "questionText": "What is a 'qubit'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "A classical bit (0 or 1)",
+      "The basic unit of quantum information",
+      "A type of quantum algorithm",
+      "A quantum computer"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea2"
+    },
+    "questionText": "What is 'quantum superposition'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "The state where a qubit can be both 0 and 1 at the same time",
+      "The process of measuring a qubit",
+      "The process of entangling qubits",
+      "A type of quantum gate"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea3"
+    },
+    "questionText": "True or False: Quantum computers are designed to replace all classical computers.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea4"
+    },
+    "questionText": "What is 'quantum entanglement'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "A way to secure data",
+      "A physical phenomenon where two or more particles are linked together in such a way that the state of one is dependent on the state of the other(s)",
+      "A type of quantum noise",
+      "A type of quantum processor"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea5"
+    },
+    "questionText": "Which type of problem is a quantum computer expected to solve much faster than a classical computer?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "Simple arithmetic calculations",
+      "Finding a number in an unsorted list",
+      "Factoring large numbers",
+      "Sorting a list of numbers"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea6"
+    },
+    "questionText": "What is the phenomenon that describes a quantum system's sensitivity to its environment?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea0",
+    "options": [
+      "Superposition",
+      "Decoherence",
+      "Entanglement",
+      "Tunneling"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea8"
+    },
+    "questionText": "What is the 'IaC' (Infrastructure as Code) principle in DevOps?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "Writing infrastructure configurations in a human-readable format",
+      "Managing infrastructure with traditional shell scripts",
+      "Managing and provisioning infrastructure using code instead of manual processes",
+      "Using a single server for all applications"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ea9"
+    },
+    "questionText": "What is a 'container' in the context of DevOps?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "A virtual machine",
+      "A physical server rack",
+      "A lightweight, standalone, executable package of a software application and its dependencies",
+      "A type of network router"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eaa"
+    },
+    "questionText": "True or False: DevOps aims to bridge the gap between development and operations teams.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eab"
+    },
+    "questionText": "Which tool is commonly used for version control in a DevOps environment?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "Microsoft Word",
+      "Git",
+      "Excel",
+      "Adobe Photoshop"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eac"
+    },
+    "questionText": "What is the purpose of a 'pipeline' in CI/CD?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "To manually deploy software",
+      "To automate the process of building, testing, and deploying software",
+      "To write new code",
+      "To communicate with customers"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ead"
+    },
+    "questionText": "What is 'Continuous Integration'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "The practice of merging developer code into a main branch several times a day",
+      "The process of manually deploying code to production",
+      "The process of writing new features",
+      "The practice of testing code after a full project is completed"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eae"
+    },
+    "questionText": "What is the main benefit of using a tool like Docker?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "It allows you to run software on a single operating system",
+      "It enables applications to be packaged and run consistently across different environments",
+      "It is a database management system",
+      "It is a programming language"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eaf"
+    },
+    "questionText": "What is the 'shift-left' approach in DevOps?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ea7",
+    "options": [
+      "Moving security and testing to the end of the development cycle",
+      "Ignoring security altogether",
+      "Integrating security and testing practices earlier in the development lifecycle",
+      "Writing less code"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb1"
+    },
+    "questionText": "What is a 'B-tree'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "A type of linear data structure",
+      "A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time",
+      "A type of binary tree",
+      "A sorting algorithm"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb2"
+    },
+    "questionText": "What is a 'heap' data structure?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "A linear data structure",
+      "A type of graph",
+      "A tree-based data structure that satisfies the heap property",
+      "A hash table"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb3"
+    },
+    "questionText": "True or False: A Min-Heap has the smallest element at the root.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb4"
+    },
+    "questionText": "Which data structure is used to implement a priority queue?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "Queue",
+      "Stack",
+      "Heap",
+      "Array"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb5"
+    },
+    "questionText": "What is the time complexity of searching in a balanced binary search tree (BST)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb6"
+    },
+    "questionText": "What is the purpose of a 'trie' data structure?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "To store data randomly",
+      "To efficiently retrieve a key's value in a dataset of strings",
+      "To sort numerical data",
+      "To manage network packets"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb7"
+    },
+    "questionText": "What is a 'graph' data structure?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "A linear data structure",
+      "A collection of nodes (vertices) and the connections (edges) between them",
+      "A tree with no root",
+      "An ordered list"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb8"
+    },
+    "questionText": "What is a 'hash collision'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "When two different keys generate the same hash value",
+      "When a hash table is full",
+      "When a hash function is too slow",
+      "When a hash table is empty"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eb9"
+    },
+    "questionText": "Which data structure is best for a file system directory tree?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eb0",
+    "options": [
+      "Linked List",
+      "Stack",
+      "Array",
+      "Tree"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ebb"
+    },
+    "questionText": "What does Big O notation represent?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "The exact running time of an algorithm",
+      "The best-case scenario for an algorithm",
+      "The worst-case time complexity of an algorithm, describing its growth rate as the input size increases",
+      "The average running time of an algorithm"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ebc"
+    },
+    "questionText": "What is the time complexity of searching for an element in a sorted array using binary search?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ebd"
+    },
+    "questionText": "True or False: Space complexity measures the amount of memory an algorithm uses.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ebe"
+    },
+    "questionText": "Which algorithm has a time complexity of O(1)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "Linear Search",
+      "Insertion Sort",
+      "Accessing an element in an array by its index",
+      "Bubble Sort"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ebf"
+    },
+    "questionText": "What is the time complexity of iterating through all elements in a linked list?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec0"
+    },
+    "questionText": "What is the worst-case space complexity of Quick Sort?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eba",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec2"
+    },
+    "questionText": "How many bits are in an IPv4 address?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec1",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec3"
+    },
+    "questionText": "How many bits are in an IPv6 address?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec1",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec4"
+    },
+    "questionText": "True or False: A private IP address can be routed on the public internet.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ec1",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec5"
+    },
+    "questionText": "What does NAT (Network Address Translation) do?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec1",
+    "options": [
+      "It assigns a permanent IP address to a device",
+      "It translates private IP addresses to public IP addresses",
+      "It converts IPv4 addresses to IPv6 addresses",
+      "It resolves domain names to IP addresses"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec6"
+    },
+    "questionText": "Which part of an IP address identifies the host on the network?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec1",
+    "options": [
+      "Network ID",
+      "Host ID",
+      "Subnet Mask",
+      "Gateway"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec8"
+    },
+    "questionText": "What does 'Atomicity' in ACID properties mean?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "Transactions are processed in a specific order",
+      "Transactions are either fully completed or completely aborted",
+      "Data remains consistent after a transaction",
+      "The results of a completed transaction are permanent"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ec9"
+    },
+    "questionText": "What does 'Consistency' in ACID properties mean?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "Data is always consistent across all databases",
+      "The database's state remains valid after a transaction",
+      "Transactions are executed independently",
+      "Data is stored permanently"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eca"
+    },
+    "questionText": "True or False: A 'dirty read' is when a transaction reads data that has been modified by another transaction that has not yet been committed.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ecb"
+    },
+    "questionText": "What is 'concurrency control'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "A technique to speed up single transactions",
+      "A mechanism to manage concurrent access to a database",
+      "A way to prevent data loss",
+      "A method to create backups"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ecc"
+    },
+    "questionText": "What is a 'deadlock' in a database system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "When a single transaction fails",
+      "When two or more transactions are waiting for each other to release locks",
+      "When a transaction is too slow",
+      "When a transaction is aborted"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ecd"
+    },
+    "questionText": "Which isolation level prevents 'dirty reads'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ece"
+    },
+    "questionText": "What is the purpose of a 'commit' statement?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ec7",
+    "options": [
+      "To undo a transaction",
+      "To make the changes of a transaction permanent in the database",
+      "To start a new transaction",
+      "To check for errors in a transaction"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed0"
+    },
+    "questionText": "What is the primary function of a file system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ecf",
+    "options": [
+      "To manage network connections",
+      "To provide a means of storing and retrieving data from storage media",
+      "To execute programs",
+      "To manage CPU resources"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed1"
+    },
+    "questionText": "What is a 'inode' in a file system like Ext4?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ecf",
+    "options": [
+      "A type of file",
+      "A data structure that stores information about a file, but not the data itself",
+      "A directory entry",
+      "A physical block on the disk"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed2"
+    },
+    "questionText": "True or False: A file can have multiple hard links pointing to the same inode.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ecf",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed3"
+    },
+    "questionText": "What is 'directory'? ",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ecf",
+    "options": [
+      "A list of all files in a file system",
+      "A special file that contains a list of other files and directories",
+      "A physical storage device",
+      "A type of user account"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed4"
+    },
+    "questionText": "What does 'mounting' a file system mean?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ecf",
+    "options": [
+      "To format a hard drive",
+      "To physically attach a storage device to a computer",
+      "To make a file system's files and directories accessible to the operating system",
+      "To delete all files from a file system"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed6"
+    },
+    "questionText": "What is the time complexity of a linear search in the worst case?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed7"
+    },
+    "questionText": "What is the main requirement for binary search?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "The list must be unsorted",
+      "The list must be a linked list",
+      "The list must be sorted",
+      "The list must contain only numbers"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed8"
+    },
+    "questionText": "True or False: A jump search algorithm is faster than a binary search for large lists.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ed9"
+    },
+    "questionText": "What is the time complexity of searching in a hash table in the average case?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n log n)"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eda"
+    },
+    "questionText": "Which search algorithm is best for a linked list?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "Binary Search",
+      "Linear Search",
+      "Jump Search",
+      "Interpolation Search"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41edb"
+    },
+    "questionText": "What is the primary difference between Breadth-First Search and Depth-First Search on a tree?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ed5",
+    "options": [
+      "DFS explores level by level, while BFS explores branches as far as possible",
+      "BFS explores level by level, while DFS explores branches as far as possible",
+      "They are the same algorithm",
+      "One is used for directed graphs, the other for undirected"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41edd"
+    },
+    "questionText": "What is a 'training set'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "Data used to evaluate the model's performance",
+      "The subset of data used to train the machine learning model",
+      "Data used to tune the model's hyperparameters",
+      "All of the data available"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ede"
+    },
+    "questionText": "What is 'regression' in machine learning?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "A task of predicting a discrete class label",
+      "A task of predicting a continuous numeric value",
+      "A task of grouping data points",
+      "A task of finding hidden patterns"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41edf"
+    },
+    "questionText": "True or False: A Support Vector Machine (SVM) is a classification algorithm.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee0"
+    },
+    "questionText": "What is a 'label' in a supervised learning context?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "A feature of the data",
+      "The input data",
+      "The target variable or outcome that the model is trying to predict",
+      "An algorithm name"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee1"
+    },
+    "questionText": "What is the purpose of 'feature scaling'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "To reduce the number of features",
+      "To improve the performance of algorithms by standardizing the range of independent variables",
+      "To select the best features for the model",
+      "To visualize the data"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee2"
+    },
+    "questionText": "What is a 'decision boundary'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "A line that separates a dataset into different classes in a classification model",
+      "A boundary between two clusters",
+      "The limit of an algorithm's performance",
+      "The end of a program"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee3"
+    },
+    "questionText": "What is a 'confusion matrix' used for?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "To confuse the model",
+      "To analyze the performance of a classification model",
+      "To visualize data in 3D",
+      "To handle missing data"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee4"
+    },
+    "questionText": "What is a 'hyperparameter'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41edc",
+    "options": [
+      "A parameter learned by the model during training",
+      "A parameter that is manually set before the training process",
+      "A type of data feature",
+      "The output of the model"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee6"
+    },
+    "questionText": "What is the 'CIA Triad' in information security?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "Confidentiality, Integrity, and Availability",
+      "Confidentiality, Information, and Authenticity",
+      "Control, Integrity, and Access",
+      "Code, Integrity, and Availability"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee7"
+    },
+    "questionText": "What is the purpose of a digital signature?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "To encrypt data",
+      "To ensure the integrity and authenticity of a message",
+      "To compress a file",
+      "To hide a message"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee8"
+    },
+    "questionText": "True or False: 'Availability' in the CIA triad means ensuring that information is accessible only to authorized users.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ee9"
+    },
+    "questionText": "What is a 'Social Engineering' attack?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "An attack on social media accounts",
+      "An attack that uses human interaction to trick people into breaking security procedures",
+      "An attack that uses social networking sites to spread malware",
+      "A type of physical attack"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eea"
+    },
+    "questionText": "What is the role of an Intrusion Detection System (IDS)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "To prevent all network traffic",
+      "To detect malicious activities or policy violations in a network or computer system",
+      "To encrypt data",
+      "To manage user accounts"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eeb"
+    },
+    "questionText": "What is 'Two-Factor Authentication' (2FA)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ee5",
+    "options": [
+      "Using two different passwords",
+      "A security method that requires two different forms of identification to verify a user's identity",
+      "A method of using a single password for two accounts",
+      "A type of firewall"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eed"
+    },
+    "questionText": "What does IaaS provide?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eec",
+    "options": [
+      "Access to applications",
+      "Access to virtualized computing resources like virtual machines, storage, and networks",
+      "A development platform",
+      "Database services"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eee"
+    },
+    "questionText": "What does PaaS provide?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eec",
+    "options": [
+      "Access to virtual machines",
+      "A platform and tools for developers to build and deploy applications without managing the underlying infrastructure",
+      "Access to finished applications",
+      "Database services"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41eef"
+    },
+    "questionText": "True or False: SaaS gives users the most control over the infrastructure.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41eec",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef0"
+    },
+    "questionText": "Which cloud model is best for a developer who wants to focus only on writing code?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eec",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "FaaS"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef1"
+    },
+    "questionText": "What is a major advantage of using SaaS?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eec",
+    "options": [
+      "High level of customization",
+      "Full control over the operating system",
+      "No need for installation or maintenance of the software",
+      "Lower cost compared to on-premise solutions"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef3"
+    },
+    "questionText": "What is a 'product backlog' in Scrum?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "A list of all tasks that have been completed",
+      "A prioritized list of features and tasks for the product",
+      "A list of all team members",
+      "A list of technical issues"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef4"
+    },
+    "questionText": "Who is responsible for managing the Product Backlog?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "The Scrum Master",
+      "The development team",
+      "The Product Owner",
+      "The project manager"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef5"
+    },
+    "questionText": "True or False: A daily Scrum meeting should last no more than 15 minutes.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef6"
+    },
+    "questionText": "What is a 'sprint retrospective'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "A meeting to plan the next sprint",
+      "A meeting to review the work done in the previous sprint",
+      "A meeting to discuss what went well and what could be improved",
+      "A meeting to demonstrate the completed work"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef7"
+    },
+    "questionText": "Which of the following is NOT a core value of the Agile Manifesto?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "Individuals and interactions over processes and tools",
+      "Comprehensive documentation over working software",
+      "Customer collaboration over contract negotiation",
+      "Responding to change over following a plan"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41ef8"
+    },
+    "questionText": "What is the purpose of a 'sprint review'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef2",
+    "options": [
+      "To inspect the increment and adapt the product backlog",
+      "To assign tasks to team members",
+      "To discuss team conflicts",
+      "To estimate the time for the next sprint"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41efa"
+    },
+    "questionText": "What is 'pipelining' in CPU architecture?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef9",
+    "options": [
+      "A way to run multiple programs at once",
+      "A technique that allows the CPU to work on multiple instructions simultaneously by overlapping stages of the instruction cycle",
+      "A method for managing memory",
+      "A way to transfer data between the CPU and memory"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41efb"
+    },
+    "questionText": "What is a 'pipeline hazard'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef9",
+    "options": [
+      "A safety feature of the CPU",
+      "A situation where the next instruction cannot be executed in the next clock cycle",
+      "A type of computer virus",
+      "A physical defect in the CPU"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41efc"
+    },
+    "questionText": "True or False: A 'data hazard' occurs when an instruction depends on the result of a previous instruction that has not yet been completed.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41ef9",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41efd"
+    },
+    "questionText": "What is the primary benefit of pipelining?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef9",
+    "options": [
+      "It reduces the size of the CPU",
+      "It makes the CPU run at a lower temperature",
+      "It increases the instruction throughput and overall performance of the CPU",
+      "It decreases the power consumption"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41efe"
+    },
+    "questionText": "What is a 'branch prediction'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41ef9",
+    "options": [
+      "A method for predicting the future stock market",
+      "A hardware feature that predicts the outcome of a conditional jump or branch in a program",
+      "A software algorithm for forecasting",
+      "A way to predict network traffic"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f00"
+    },
+    "questionText": "What is 'consensus' in a distributed system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "A way to synchronize clocks",
+      "The process of all nodes in the system agreeing on a single value or state",
+      "A way to share memory",
+      "A protocol for network communication"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f01"
+    },
+    "questionText": "What is the 'Byzantine Generals Problem'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "A problem of military strategy",
+      "A problem of network traffic congestion",
+      "A thought experiment that illustrates the difficulty of reaching consensus in a distributed system with faulty or malicious nodes",
+      "A problem with data security"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f02"
+    },
+    "questionText": "True or False: The Paxos algorithm is used for achieving consensus.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f03"
+    },
+    "questionText": "What is 'Leader Election' in a distributed system?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "A process to choose a node to perform a specific task",
+      "A process to create a new node",
+      "A way to shut down a node",
+      "A method for data storage"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f04"
+    },
+    "questionText": "What is the purpose of a 'timestamp' in distributed systems?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "To measure the speed of a network",
+      "To provide a consistent ordering of events across different nodes",
+      "To mark a point in time on a single node",
+      "To synchronize hardware clocks"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f05"
+    },
+    "questionText": "What is 'Consistency' in the context of the CAP theorem?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41eff",
+    "options": [
+      "All clients have access to the same data at the same time",
+      "The system is always available",
+      "The system is partitioned",
+      "The system is easy to use"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f07"
+    },
+    "questionText": "Which blockchain is most famous for its use of smart contracts?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f06",
+    "options": [
+      "Bitcoin",
+      "Ethereum",
+      "Litecoin",
+      "Ripple"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f08"
+    },
+    "questionText": "What is the purpose of a smart contract?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f06",
+    "options": [
+      "To store legal documents",
+      "To automatically execute a contract when certain conditions are met",
+      "To manually approve transactions",
+      "To create new cryptocurrencies"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f09"
+    },
+    "questionText": "True or False: Smart contracts are self-enforcing.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f06",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0a"
+    },
+    "questionText": "What language is commonly used to write smart contracts on the Ethereum blockchain?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f06",
+    "options": [
+      "Python",
+      "Solidity",
+      "Java",
+      "C++"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0b"
+    },
+    "questionText": "What is the primary benefit of a smart contract?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f06",
+    "options": [
+      "It makes contracts easier to read",
+      "It requires a lawyer for every transaction",
+      "It reduces the need for intermediaries, reduces costs, and increases transparency",
+      "It can be easily changed by anyone"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0d"
+    },
+    "questionText": "Which NLP application is used to determine the emotional tone of a piece of text?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "Machine translation",
+      "Text summarization",
+      "Sentiment analysis",
+      "Speech recognition"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0e"
+    },
+    "questionText": "What is the purpose of 'named entity recognition' (NER)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "To translate text",
+      "To identify and classify named entities in text, such as names of people, organizations, locations, etc.",
+      "To summarize text",
+      "To generate new text"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f0f"
+    },
+    "questionText": "True or False: 'Chatbots' are an application of NLP.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f10"
+    },
+    "questionText": "What is 'text classification'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "The process of converting speech to text",
+      "The task of assigning a document to one or more categories or labels",
+      "The process of extracting key phrases from a document",
+      "The process of generating new text"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f11"
+    },
+    "questionText": "Which is an example of an NLP task?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "Image compression",
+      "Image processing",
+      "Spam detection in emails",
+      "Video editing"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f12"
+    },
+    "questionText": "What is 'word embedding'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f0c",
+    "options": [
+      "A technique for visualizing words",
+      "A numerical representation of words that captures their semantic relationships",
+      "A way to count words in a document",
+      "A method for text summarization"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f14"
+    },
+    "questionText": "What is the purpose of Grover's Algorithm?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "To factor large numbers",
+      "To find an item in an unsorted database or list faster than a classical computer",
+      "To simulate quantum systems",
+      "To solve the traveling salesman problem"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f15"
+    },
+    "questionText": "What is the purpose of Shor's Algorithm?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "To search a database",
+      "To find the shortest path in a graph",
+      "To find the prime factors of a large integer",
+      "To sort a list of numbers"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f16"
+    },
+    "questionText": "True or False: Quantum parallelism allows a quantum computer to evaluate a function for all possible inputs simultaneously.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f17"
+    },
+    "questionText": "What is 'quantum annealing'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "A type of quantum search algorithm",
+      "A quantum optimization algorithm used to find the global minimum of a function",
+      "A method for building quantum computers",
+      "A type of quantum cryptography"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f18"
+    },
+    "questionText": "What is the primary difference between a classical bit and a qubit?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "A bit can store more information than a qubit",
+      "A bit can be 0 or 1, while a qubit can be 0, 1, or both simultaneously (in a superposition)",
+      "A bit is a physical object, a qubit is a concept",
+      "A bit is used in quantum computers, a qubit in classical computers"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f19"
+    },
+    "questionText": "What does a 'quantum gate' do?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "It protects a quantum computer from viruses",
+      "It performs a logical operation on one or more qubits",
+      "It stores qubits",
+      "It measures the temperature of the quantum computer"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1a"
+    },
+    "questionText": "What is the state of a qubit when measured?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "It remains in superposition",
+      "It collapses into a classical state of either 0 or 1",
+      "It becomes a negative number",
+      "It becomes entangled with another qubit"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1b"
+    },
+    "questionText": "What is the key principle behind quantum cryptography?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f13",
+    "options": [
+      "Using complex passwords",
+      "Using quantum mechanics to detect eavesdropping during key exchange",
+      "Using very large keys",
+      "Using classical encryption algorithms"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1d"
+    },
+    "questionText": "What is 'Continuous Delivery'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "Manually deploying code to production",
+      "An automated process that ensures the code is always in a deployable state",
+      "The process of writing new code continuously",
+      "The process of manually testing code"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1e"
+    },
+    "questionText": "What is the primary purpose of a CI server?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "To store backup data",
+      "To automatically build and test code whenever changes are committed",
+      "To host a website",
+      "To manage a database"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f1f"
+    },
+    "questionText": "True or False: Continuous Deployment automatically deploys every change to production after it passes the tests.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f20"
+    },
+    "questionText": "What is a 'build' in a CI/CD pipeline?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "The process of writing new code",
+      "The process of compiling source code into an executable artifact",
+      "The process of deploying to production",
+      "The process of creating a new feature"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f21"
+    },
+    "questionText": "What is the benefit of automating testing in a CI/CD pipeline?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "It makes the process more complex",
+      "It slows down the development process",
+      "It enables faster feedback on code quality and reduces the risk of bugs reaching production",
+      "It requires more manual work"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f22"
+    },
+    "questionText": "Which tool is commonly used for CI/CD?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f1c",
+    "options": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Jenkins",
+      "Google Docs"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f24"
+    },
+    "questionText": "What is an algorithm?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "A piece of hardware",
+      "A set of instructions to perform a task",
+      "A programming language",
+      "A data storage method"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f25"
+    },
+    "questionText": "What is a 'data structure'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "A type of algorithm",
+      "A specialized format for organizing, processing, retrieving, and storing data",
+      "A computer program",
+      "A memory chip"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f26"
+    },
+    "questionText": "True or False: The efficiency of an algorithm is measured by its time and space complexity.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f27"
+    },
+    "questionText": "What is the purpose of an 'abstract data type' (ADT)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "To specify the physical storage of data",
+      "To define the logical behavior of a data structure, independent of its implementation",
+      "To create a new programming language",
+      "To manage memory"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f28"
+    },
+    "questionText": "Which of the following is an example of a linear data structure?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "Tree",
+      "Graph",
+      "Array",
+      "Hash Table"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f29"
+    },
+    "questionText": "What is the key characteristic of a recursive algorithm?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "It always uses a loop",
+      "It divides the problem into sub-problems",
+      "It calls itself to solve a smaller instance of the same problem",
+      "It uses a hash table"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2a"
+    },
+    "questionText": "What is the purpose of 'memoization' in dynamic programming?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f23",
+    "options": [
+      "To memorize the problem statement",
+      "To store the results of expensive function calls and return the cached result when the same inputs occur again",
+      "To increase the size of the memory",
+      "To write a program in a shorter way"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2c"
+    },
+    "questionText": "What is the main function of the Internet Protocol (IP)?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f2b",
+    "options": [
+      "To ensure reliable data transfer",
+      "To provide logical addressing and routing of data packets",
+      "To manage physical network connections",
+      "To resolve domain names"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2d"
+    },
+    "questionText": "Which protocol is a connectionless protocol at the network layer?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f2b",
+    "options": [
+      "TCP",
+      "UDP",
+      "IP",
+      "HTTP"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2e"
+    },
+    "questionText": "True or False: A router operates at the network layer of the OSI model.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f2b",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 0,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f2f"
+    },
+    "questionText": "What is the purpose of a 'routing table'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f2b",
+    "options": [
+      "To store data about network users",
+      "To store information about network topology",
+      "To provide a roadmap for data packets to their destinations",
+      "To manage wireless connections"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f30"
+    },
+    "questionText": "What does a 'subnet mask' do?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f2b",
+    "options": [
+      "It hides a device's IP address",
+      "It determines which part of an IP address is the network ID and which part is the host ID",
+      "It encrypts network traffic",
+      "It assigns an IP address to a device"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f32"
+    },
+    "questionText": "What is 'query optimization'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "The process of writing a query",
+      "The process of creating a database",
+      "The process of finding the most efficient execution plan for a query",
+      "The process of deleting a table"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f33"
+    },
+    "questionText": "What is the primary reason for using indexes in a database?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "To store more data",
+      "To improve the speed of data retrieval operations",
+      "To prevent data from being changed",
+      "To create relationships between tables"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f34"
+    },
+    "questionText": "True or False: A 'join' operation is a form of query optimization.",
+    "questionType": "true/false",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f35"
+    },
+    "questionText": "Which of the following is a factor that a query optimizer considers?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "The color of the database",
+      "The number of rows in a table",
+      "The name of the user who wrote the query",
+      "The time of day the query is run"
+    ],
+    "correctOption": 1,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f36"
+    },
+    "questionText": "What is a 'query plan'?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "A document explaining a query",
+      "A set of notes on a query",
+      "A sequence of operations that a database system will use to execute a query",
+      "A plan for writing a query"
+    ],
+    "correctOption": 2,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "689f964374f6631cc3a41f37"
+    },
+    "questionText": "Which of the following is a way to improve query performance?",
+    "questionType": "multiple-choice",
+    "quizID": "689f964374f6631cc3a41f31",
+    "options": [
+      "Adding more data to a table",
+      "Removing all indexes",
+      "Using a subquery instead of a join",
+      "Creating appropriate indexes"
+    ],
+    "correctOption": 3,
+    "createdAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-16T03:04:23.000Z"
+    },
+    "__v": 0
+  }
+]

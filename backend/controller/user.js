@@ -8,7 +8,7 @@ import { User } from '../models/user.js'
 // Helper function to generate JWT token
 const generateToken = (userId, role) => {
     return jwt.sign({ userId, role }, process.env.JWT_SECRET, {
-        expiresIn: '24h',
+        expiresIn: '1h',
     });
 };
 
