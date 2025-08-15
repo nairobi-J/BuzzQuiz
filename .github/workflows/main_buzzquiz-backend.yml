@@ -57,6 +57,6 @@ jobs:
         with:
           app-name: 'buzzquiz-backend'
           slot-name: 'Production'
-          package: .
+          package: ./backend
           runtime-stack: 'NODE|20-lts'
           startup-command: 'npm start'
