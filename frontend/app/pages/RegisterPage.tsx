@@ -1,5 +1,5 @@
 'use client';
-
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 import { useState } from 'react';
 const RegisterPage = ({ onRegisterSuccess, onNavigateToLogin }) => {
   const [username, setUsername] = useState('');
@@ -14,7 +14,7 @@ const RegisterPage = ({ onRegisterSuccess, onNavigateToLogin }) => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/user/register', {
+      const response = await fetch(`${BACKEND_URL}/api/user/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password, email, role }),

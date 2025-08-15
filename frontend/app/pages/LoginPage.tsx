@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation'; // Import useRouter
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
   const [username, setUsername] = useState('');
@@ -14,7 +15,7 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/user/login', {
+      const response = await fetch(`${BACKEND_URL}/api/user/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),

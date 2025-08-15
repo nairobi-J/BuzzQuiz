@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Search, Plus, BookOpen } from 'lucide-react';
 import CourseModal from '../components/CourseModal';
-
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 const Courses = ({ setAlertMessage, setAlertType, setShowAlert, isUserAdmin, onCourseClick }) => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -13,7 +13,7 @@ const Courses = ({ setAlertMessage, setAlertType, setShowAlert, isUserAdmin, onC
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/course/all');
+        const response = await fetch(`${BACKEND_URL}/api/course/all`);
         if (!response.ok) {
           throw new Error('Failed to fetch courses.');
         }

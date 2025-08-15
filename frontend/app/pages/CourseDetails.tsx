@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { ArrowLeft, BookOpen, Clock, User, Plus } from 'lucide-react';
 import CourseModal from '../components/CourseModal';
 import AddQuestionModal from '../components/AddQuestionModal';
-
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 const CourseDetails = ({ course, onBack, onQuizClick }) => {
   const [quizzes, setQuizzes] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -24,7 +24,7 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
     const fetchQuizzes = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`http://localhost:8000/api/quiz/course/${course._id}`);
+        const response = await fetch(`${BACKEND_URL}/api/quiz/course/${course._id}`);
         if (!response.ok) {
           throw new Error('Failed to fetch quizzes.');
         }

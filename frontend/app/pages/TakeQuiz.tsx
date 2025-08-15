@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ArrowLeft, CheckCircle, Radio, Square, Text, Loader2 } from 'lucide-react';
-
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 const TakeQuiz = ({ quiz, onFinish }) => {
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -13,7 +13,7 @@ const TakeQuiz = ({ quiz, onFinish }) => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/api/question/${quiz._id}`);
+        const response = await fetch(`${BACKEND_URL}/api/question/${quiz._id}`);
         if (!response.ok) {
           throw new Error('Failed to fetch questions.');
         }
