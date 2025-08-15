@@ -1,12 +1,16 @@
 // course.js
 import { Course } from '../models/course.js'; // Import the new Mongoose Course model
+// In your question controller
+
+
+// Use in your route
 
 // Create Course
 export const createCourse = async (req, res) => {
     try {
-        const { courseName, description } = req.body;
+        const { courseName, description, creatorName } = req.body;
         // Create a new course using the Mongoose model
-        const newCourse = await Course.create({ courseName, description });
+        const newCourse = await Course.create({ courseName, description, creatorName });
 
         res.status(201).json({ courseId: newCourse._id });
         console.log('Course created successfully');
@@ -20,7 +24,7 @@ export const createCourse = async (req, res) => {
 export const getCourses = async (req, res) => {
     try {
         // Find all courses and populate the teacherID with user data
-        const courses = await Course.find({}).populate('description');
+        const courses = await Course.find({}).populate('description','creatorName');
         res.json(courses);
     } catch (error) {
         console.error('Error getting courses:', error);

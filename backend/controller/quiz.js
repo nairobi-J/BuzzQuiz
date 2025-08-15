@@ -6,48 +6,40 @@ import { Course } from '../models/course.js';
 // Create Quiz (Admin or Teacher)
 export const createQuiz = async (req, res) => {
     try {
-       
+        const { quizTitle, description, duration, courseID, numQuestions, passingScore } = req.body;
 
-        const { 
-            quizTitle, 
-            description, 
-            duration, 
-            courseID, 
-            numQuestions,
-            passingScore,
-            userID
-        } = req.body;
-
-    
-       
+        // Get creatorID from authenticated user (comes from verifyToken middleware)
+        if (!req.user?.userId) {
+            return res.status(400).json({ message: 'User authentication failed' });
+        }
 
         const quiz = new Quiz({
             quizTitle,
-            description,
-            duration,
-            creatorID: userID,
+            description: description || '',
+            duration: Number(duration),
             courseID,
-            numQuestions,
-            passingScore
+            numQuestions: Number(numQuestions) || 1,
+            passingScore: Number(passingScore) || 70,
+            creatorID: req.user.userId // Use userId from middleware
         });
 
-        await quiz.save();
-
-        // Add quiz reference to course
+        const savedQuiz = await quiz.save();
+        
+        // Update course with new quiz
         await Course.findByIdAndUpdate(courseID, {
-            $push: { quizzes: quiz._id }
+            $push: { quizzes: savedQuiz._id }
         });
 
         res.status(201).json({
             message: 'Quiz created successfully',
-            quiz
+            quiz: savedQuiz
         });
 
     } catch (error) {
         console.error('Error creating quiz:', error);
         res.status(500).json({ 
             message: 'Internal Server Error',
-            error: error.message 
+            error: error.message
         });
     }
 };

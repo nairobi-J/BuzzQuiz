@@ -3,14 +3,17 @@
 
 import { useState, useEffect } from 'react';
 import { ArrowLeft, BookOpen, Clock, User, Plus } from 'lucide-react';
-import CourseModal from '../components/CourseModal';
+import Alert from '../components/Alert';
+import CreateQuizModal from '../components/CreateQuizModal';
+
 import AddQuestionModal from '../components/AddQuestionModal';
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
-const CourseDetails = ({ course, onBack, onQuizClick }) => {
+const CourseDetails = ({setAlertMessage, setAlertType, setShowAlert, course, onBack, onQuizClick }) => {
   const [quizzes, setQuizzes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isAddQuestionModalOpen, setIsAddQuestionModalOpen] = useState(false);
   const [selectedQuiz, setSelectedQuiz] = useState(null);
+  const [isCreateQuizModalOpen, setIsCreateQuizModalOpen] = useState(false);
 
   if (!course) {
     return (
@@ -20,23 +23,20 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
     );
   }
 
-  useEffect(() => {
-    const fetchQuizzes = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch(`${BACKEND_URL}/api/quiz/course/${course._id}`);
-        if (!response.ok) {
-          throw new Error('Failed to fetch quizzes.');
-        }
-        const data = await response.json();
-        setQuizzes(data);
-      } catch (error) {
-        console.error('Error fetching quizzes:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
+ const fetchQuizzes = async () => {
+    setLoading(true);
+    try {
+      const response = await fetch(`${BACKEND_URL}/api/quiz/course/${course._id}`);
+      if (!response.ok) throw new Error('Failed to fetch quizzes');
+      setQuizzes(await response.json());
+    } catch (error) {
+      console.error('Error:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     fetchQuizzes();
   }, [course._id]);
 
@@ -52,7 +52,12 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
       onQuizClick(quiz);
     }
   };
-
+ const onQuizCreated = () => {
+    fetchQuizzes(); // This will now work
+    // setAlertMessage('Quiz created successfully!');
+    // setAlertType('success');
+    // setShowAlert(true);
+  };
   return (
     <div>
       <div className="mb-6 flex items-center space-x-4">
@@ -64,16 +69,25 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
       <div className="bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 mb-6">
         <p className="text-gray-600 mb-4">{course.details}</p>
         <p className="text-gray-500 text-sm">
-          **Teacher:** {course.teacherID}
+          **Created By:** {course.creatorName}
         </p>
         <p className="text-gray-500 text-sm">
           **Created on:** {new Date(course.createdAt).toLocaleDateString()}
         </p>
       </div>
+      <div className="flex items-center justify-between mb-4">
+  <h4 className="text-2xl font-bold">Quizzes and Exams</h4>
+  <button 
+    onClick={() => setIsCreateQuizModalOpen(true)}
+    className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+  >
+    <Plus size={18} /> Create Quiz
+  </button>
+</div>
 
       <div className="mt-8">
         <div className="flex items-center justify-between mb-4">
-          <h4 className="text-2xl font-bold">Quizzes and Exams</h4>
+         
         </div>
         
         {loading ? (
@@ -105,15 +119,7 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
                   </div>
                 </div>
                 <div className="mt-4 flex justify-end space-x-2">
-                  <button
-                    onClick={() => {
-                        setSelectedQuiz(quiz);
-                        setIsAddQuestionModalOpen(true);
-                    }}
-                    className="px-3 py-1 bg-indigo-500 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-600 transition-colors text-sm"
-                  >
-                    Add Question
-                  </button>
+                 
                   <button
                     onClick={() => handleTakeQuizClick(quiz)}
                     className="px-4 py-2 bg-indigo-600 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-700 transition-colors"
@@ -134,6 +140,12 @@ const CourseDetails = ({ course, onBack, onQuizClick }) => {
           onClose={() => setIsAddQuestionModalOpen(false)}
           quizID={selectedQuiz ? selectedQuiz._id : null}
           onQuestionAdded={handleQuestionAdded}
+      />
+      <CreateQuizModal
+        isOpen={isCreateQuizModalOpen}
+        onClose={() => setIsCreateQuizModalOpen(false)}
+        courseID={course._id}
+        onQuizCreated={onQuizCreated}
       />
     </div>
   );

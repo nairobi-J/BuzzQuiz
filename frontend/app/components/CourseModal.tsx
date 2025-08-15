@@ -5,14 +5,16 @@ import { useState } from 'react';
 const CourseModal = ({ isOpen, onClose, onCreate }) => {
   const [courseName, setCourseName] = useState('');
   const [courseDetails, setCourseDetails] = useState('');
+  const[creatorName, setCreatorName] = useState('');
 
   if (!isOpen) return null;
 
   const handleCreate = () => {
     if (courseName && courseDetails) {
-      onCreate(courseName, courseDetails);
+      onCreate(courseName, courseDetails, creatorName);
       setCourseName('');
       setCourseDetails('');
+      setCreatorName('');
     }
   };
 
@@ -28,6 +30,10 @@ const CourseModal = ({ isOpen, onClose, onCreate }) => {
           <div>
             <label className="block text-sm font-medium text-gray-700">Course Details</label>
             <textarea value={courseDetails} onChange={(e) => setCourseDetails(e.target.value)} rows="4" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></textarea>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Your Name</label>
+            <input type="text" value={creatorName} onChange={(e) => setCreatorName(e.target.value)} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
           </div>
         </div>
         <div className="mt-6 flex justify-end space-x-4">

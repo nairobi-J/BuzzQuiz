@@ -1,12 +1,13 @@
 import { Router } from 'express';
 import * as controller from '../controller/question.js';
 import { checkQuizOwnership, checkRole } from '../middleware/CheckAccess.js'; // Assuming you have these
+import validateQuestion from '../middleware/validateQuestion.js';
 import verifyToken from '../middleware/verifyToken.js'; // Assuming you have this
 
 const router = Router();
 
 // Create a new question
-router.post('/create', verifyToken, checkRole(['admin', 'teacher']), controller.createQuestion);
+router.post('/create',verifyToken,validateQuestion,  controller.createQuestion);
 
 // Get questions by quiz ID
 router.get('/:id', controller.getQuestionsByQuizId);

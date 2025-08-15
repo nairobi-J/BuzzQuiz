@@ -11,6 +11,10 @@ const courseSchema = new mongoose.Schema({
    description: {
         type: String,
         trim: true
+    },
+    creatorName:{
+        type: String,
+        required: true
     }
 }, {
     timestamps: true

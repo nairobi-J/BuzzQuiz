@@ -10,45 +10,79 @@ const Courses = ({ setAlertMessage, setAlertType, setShowAlert, isUserAdmin, onC
   const [searchTerm, setSearchTerm] = useState('');
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    const fetchCourses = async () => {
-      try {
-        const response = await fetch(`${BACKEND_URL}/api/course/all`);
-        if (!response.ok) {
-          throw new Error('Failed to fetch courses.');
-        }
-        const data = await response.json();
-        setCourses(data);
-      } catch (error) {
-        console.error('Error fetching courses:', error);
-        setAlertMessage('Failed to fetch courses. Please check the server.');
-        setAlertType('error');
-        setShowAlert(true);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchCourses();
-  }, [setAlertMessage, setAlertType, setShowAlert]);
+useEffect(() => {
+  const fetchCourses = async () => {
+    try {
+      const response = await fetch(`${BACKEND_URL}/api/course/all`);
+      if (!response.ok) throw new Error('Failed to fetch courses');
+      
+      const data = await response.json();
+      
+      
+      // Validate course data structure
+      const validatedCourses = data.map(course => ({
+        _id: course._id || '',
+        courseName: course.courseName || 'Untitled Course',
+        details: course.details || '',
+        creatorName: course.creatorName || '',
+        createdAt: course.createdAt || new Date().toISOString()
+      }));
+      
+      setCourses(validatedCourses);
+    } catch (error) {
+      console.error('Error:', error);
+      setAlertMessage('Failed to load courses');
+      setAlertType('error');
+      setShowAlert(true);
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  fetchCourses();
+}, []);
 
-  const filteredCourses = courses.filter(course =>
-    course.courseName.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCourses = courses.filter(course => 
+  course?.courseName?.toLowerCase().includes(searchTerm.toLowerCase())
+);
+const handleCreateCourse = async (courseName, courseDetails, creatorName) => {
+  try {
+    const response = await fetch(`${BACKEND_URL}/api/course/create`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${localStorage.getItem('token')}`
+      },
+      body: JSON.stringify({
+        courseName,
+        details: courseDetails,
+        creatorName
+      }),
+    });
 
-  const handleCreateCourse = (courseName, courseDetails) => {
-    const newCourse = {
-      _id: crypto.randomUUID(),
-      courseName,
-      details: courseDetails,
-      teacherID: 'mockTeacherID',
-      createdAt: new Date().toISOString(),
-    };
-    setCourses([...courses, newCourse]);
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData.message || 'Failed to create course');
+    }
+
+    const newCourse = await response.json();
+    
+    // Update state using the functional form to ensure consistency
+    setCourses(prevCourses => [...prevCourses, newCourse]);
+    
     setShowModal(false);
     setAlertMessage('Course created successfully!');
     setAlertType('success');
     setShowAlert(true);
-  };
+    
+  } catch (error) {
+    console.error('Error creating course:', error);
+    setAlertMessage(error.message || 'Failed to create course. Please try again.');
+    setAlertType('error');
+    setShowAlert(true);
+  }
+  
+};
 
   const handleCreateButtonClick = () => {
     if (isUserAdmin) {
@@ -95,8 +129,9 @@ const Courses = ({ setAlertMessage, setAlertType, setShowAlert, isUserAdmin, onC
                 </div>
                 <p className="text-gray-600 text-sm mb-4">{course.details}</p>
                 <div className="flex justify-between items-center text-sm text-gray-500">
-                  <span>Teacher: {course.teacherID}</span>
+                  <span>User: {course.creatorName}</span>
                   <span>{new Date(course.createdAt).toLocaleDateString()}</span>
+                  
                 </div>
               </div>
             ))
