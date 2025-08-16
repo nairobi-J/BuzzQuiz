@@ -47,10 +47,10 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex items-center justify-center bg-gray-100 h-65% p-4 rounded-2xl shadow-2xl">
      
      
-      <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">  
+      <div className="bg-gray-100 w-full max-w-md">  
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-6">Welcome Back</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>

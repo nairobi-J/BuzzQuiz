@@ -23,7 +23,7 @@ useEffect(() => {
       const validatedCourses = data.map(course => ({
         _id: course._id || '',
         courseName: course.courseName || 'Untitled Course',
-        details: course.details || '',
+        description: course.description || '',
         creatorName: course.creatorName || '',
         createdAt: course.createdAt || new Date().toISOString()
       }));
@@ -55,7 +55,7 @@ const handleCreateCourse = async (courseName, courseDetails, creatorName) => {
       },
       body: JSON.stringify({
         courseName,
-        details: courseDetails,
+        description: courseDetails,
         creatorName
       }),
     });
@@ -127,7 +127,7 @@ const handleCreateCourse = async (courseName, courseDetails, creatorName) => {
                   <BookOpen className="w-8 h-8 text-indigo-500" />
                   <h4 className="text-xl font-semibold">{course.courseName}</h4>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">{course.details}</p>
+                <p className="text-gray-600 text-sm mb-4">{course.description}</p>
                 <div className="flex justify-between items-center text-sm text-gray-500">
                   <span>User: {course.creatorName}</span>
                   <span>{new Date(course.createdAt).toLocaleDateString()}</span>

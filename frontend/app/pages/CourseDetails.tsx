@@ -64,9 +64,9 @@ const CourseDetails = ({setAlertMessage, setAlertType, setShowAlert, course, onB
         <button onClick={onBack} className="p-2 rounded-full hover:bg-gray-200 transition-colors">
           <ArrowLeft className="w-6 h-6 text-gray-600" />
         </button>
-        <h3 className="text-3xl font-extrabold text-gray-900">{course.courseName}</h3>
+        
       </div>
-      <div className="bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 mb-6">
+      <div className=" p-6  border border-gray-200 mb-6">
         <p className="text-gray-600 mb-4">{course.details}</p>
         <p className="text-gray-500 text-sm">
           **Created By:** {course.creatorName}

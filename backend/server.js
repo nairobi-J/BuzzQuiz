@@ -12,6 +12,7 @@ import course from './router/course.js';
 import option from './router/option.js';
 import quiz from './router/quiz.js';
 import response from './router/response.js';
+import explanation from './router/explanation.js';
 
 dotenv.config();
 
@@ -35,6 +36,8 @@ app.use('/api/course', course);
 app.use('/api/options', option);
 app.use('/api/quiz', quiz);
 app.use('/api/response', response);
+app.use('/api/explanation', explanation)
+
 
 app.get('/', (req, res) => {
     try {
