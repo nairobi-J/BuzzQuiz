@@ -1,6 +1,6 @@
 import express from 'express';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import Response from '../models/Response.js';
+import Response from '../models/diff/Response.js';
 import router from 'express';
 import dotenv from 'dotenv';
 
