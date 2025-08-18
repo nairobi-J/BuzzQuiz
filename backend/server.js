@@ -14,6 +14,7 @@ import quiz from './router/quiz.js';
 import response from './router/response.js';
 import explanation from './router/explanation.js';
 
+
 dotenv.config();
 
 /**app declaration */
@@ -37,6 +38,14 @@ app.use('/api/options', option);
 app.use('/api/quiz', quiz);
 app.use('/api/response', response);
 app.use('/api/explanation', explanation)
+
+
+//another work!
+import geminiRoutes from './router/gemini.js'
+import youtubeRoutes from './router/youtube.js';
+app.use('/api',geminiRoutes);
+app.use('/api', youtubeRoutes);
+
 
 
 app.get('/', (req, res) => {

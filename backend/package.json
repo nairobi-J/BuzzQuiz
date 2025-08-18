@@ -17,6 +17,7 @@
     "dotenv": "^16.6.1",
     "express": "^4.19.2",
     "express-validator": "^7.0.1",
+    "googleapis": "^156.0.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.18.0",
     "mongoose": "^8.17.1",
