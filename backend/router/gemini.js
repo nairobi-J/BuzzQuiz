@@ -19,8 +19,8 @@ appRouter.post('/gemini', async (req, res) => {
   const prompt = `Provide a detailed explanation in Bengali for Surah ${surah}, Ayat ${startAyat}-${endAyat}.
   Include:
   1.Relevant other quranic verses with each ayat from start ayat to end ayat atleast two for each and why relevant with explanation
-  4. Relevant Hadith with reference for start ayat to end ayat atleast 1 for each ayat
-  5. Practical life lessons for recent time any context
+  4. Relevant Hadith with reference for start ayat to end ayat atleast
+  5. Practical life lessons for recent time context and Prophet(PBUH) context from starting ayat to end ayat
 
 `;
 
