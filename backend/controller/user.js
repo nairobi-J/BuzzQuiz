@@ -31,7 +31,14 @@ export async function registerUser(req, res) {
         });
        
        
-        const token = generateToken(newUser._id, newUser.role);
+        const token = jwt.sign(
+      { 
+        userId: newUser._id.toString(), // Make sure to use .toString()
+        email: newUser.email 
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: '7d' }
+    );
         res.status(201).json({ userId: newUser._id, token });
         console.log('user created successfully');
     } catch (error) {
@@ -60,10 +67,17 @@ export async function loginUser(req, res) {
         if (!match) {
             return res.status(401).send('Invalid credentials');
         }
-
+         const token = jwt.sign(
+      { 
+        userId: user._id.toString(), // Make sure to use .toString()
+        email: user.email 
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: '24h' }
+    );
         const userId = user._id;
         const role = user.role;
-        const token = generateToken(userId, role);
+        //const token = generateToken(userId, role);
         res.json({ userId, token, role });
     } catch (error) {
         console.error('Error logging in user:', error);

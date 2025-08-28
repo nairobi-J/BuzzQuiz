@@ -1,7 +1,14 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Clock, CheckCircle, XCircle, AlertCircle, ChevronLeft, ChevronRight, Send } from 'lucide-react';
+import { jwtDecode } from 'jwt-decode'; // Install: npm install jwt-decode
 
+interface DecodedToken {
+  userId: string;
+  email: string;
+  iat: number;
+  exp: number;
+}
 
 // Test function
 
@@ -34,6 +41,7 @@ const TakeQuiz = ({ quiz, onFinish }: { quiz: Quiz; onFinish: () => void }) => {
   const [showResults, setShowResults] = useState(false);
   const [timeLeft, setTimeLeft] = useState(quiz.duration * 60);
   const [isSubmitting, setIsSubmitting] = useState(false);
+// When creating JWT tokens, include userId in the payload
 
 
   // Color scheme
@@ -196,10 +204,8 @@ const handleSubmit = async () => {
 const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent: number) => {
     try {
 
-
-       if (typeof window === 'undefined') {
-            return; // Exit if running on server
-        }
+     
+      
         const token = localStorage.getItem('token');
         
         console.log(token);
@@ -208,11 +214,9 @@ const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent:
             throw new Error('token not valid');
         }
 
-        const userId = localStorage.getItem('userId');
-        console.log("user", userId);
-        if(!userId){
-          throw new Error('userID not defined');
-        }
+         const decoded = jwtDecode<DecodedToken>(token);
+    const userId = decoded.userId;
+    console.log(userId);
         // 🟢 FIX: Format answers for backend based on question type
         const formattedAnswers = questions.map(question => {
             const userAnswer = userAnswers[question._id];
