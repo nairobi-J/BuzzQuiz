@@ -122,6 +122,7 @@ function App() {
         <TakeQuiz
           quiz={selectedQuiz}
           onFinish={() => {
+            
             setSelectedQuiz(null);
             setSelectedCourse(null);
             setCurrentPage('Courses');

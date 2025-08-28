@@ -196,13 +196,18 @@ const handleSubmit = async () => {
 const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent: number) => {
     try {
         const token = localStorage.getItem('token');
-        const userId = localStorage.getItem('userId');
-        console.log(token, userId);
         
-        if (!token || !userId) {
-            throw new Error('Authentication required. Please log in again.');
+        console.log(token);
+        
+        if (!token) {
+            throw new Error('token not valid');
         }
 
+        const userId = localStorage.getItem('userId');
+        console.log("user", userId);
+        if(!userId){
+          throw new Error('userID not defined');
+        }
         // 🟢 FIX: Format answers for backend based on question type
         const formattedAnswers = questions.map(question => {
             const userAnswer = userAnswers[question._id];
