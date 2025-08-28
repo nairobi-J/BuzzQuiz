@@ -134,7 +134,7 @@ const TakeQuiz = ({ quiz, onFinish }: { quiz: Quiz; onFinish: () => void }) => {
 
 const handleSubmit = async () => {
   if (!window.confirm('Are you sure you want to submit your answers?')) return;
-
+  
   setIsSubmitting(true);
   setShowResults(false); 
 
@@ -195,6 +195,12 @@ const handleSubmit = async () => {
 
 const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent: number) => {
     try {
+
+
+        if (typeof window === 'undefined') {
+            console.log('Running on server - localStorage not available');
+            throw new Error('Cannot access localStorage on server');
+        }
         const token = localStorage.getItem('token');
         
         console.log(token);
