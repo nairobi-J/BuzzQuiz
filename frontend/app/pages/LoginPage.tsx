@@ -58,6 +58,7 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
             <label className="block text-sm font-medium text-gray-700">Username</label>
             <input
               type="text"
+              placeholder='Jerrrrin'
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -84,7 +85,8 @@ const LoginPage = ({ onLoginSuccess, onNavigateToRegister }) => {
             {loading ? 'Logging In...' : 'Login'}
           </button>
         </form>
-        <div className='flex p-4 pl-2'> Username:Nusrat, Password:jerin</div>
+        <div className='flex p-4 pl-2'> AdminUsername:Nusrat, AdminPassword:jerin </div>
+        sorry? You do not need it! fineeee do sign in yourself sighh!
        
       </div>
     </div>

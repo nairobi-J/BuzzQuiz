@@ -136,12 +136,15 @@ const handleSubmit = async () => {
   if (!window.confirm('Are you sure you want to submit your answers?')) return;
 
   setIsSubmitting(true);
-  setShowResults(false); // Reset before new submission
+  setShowResults(false); 
 
   try {
-    const { results } = calculateResults();
+    const {score, results } = calculateResults();
+    const timeSpent = quiz.duration * 60 - timeLeft;
     const incorrectQuestions = results.filter(q => !q.isCorrect);
     const newExplanations: Record<string, string> = {};
+
+    const attemptId = await saveQuizAttempt(score, results.filter(q => q.isCorrect).length, timeSpent);
 
     // Process questions sequentially with error handling
     for (const question of incorrectQuestions) {
@@ -188,6 +191,77 @@ const handleSubmit = async () => {
     setIsSubmitting(false);
   }
 };
+
+
+const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent: number) => {
+    try {
+        const token = localStorage.getItem('token');
+        const userId = localStorage.getItem('userId');
+        console.log(token);
+
+        if (!token || !userId) {
+            throw new Error('Authentication required. Please log in again.');
+        }
+
+        // 🟢 FIX: Format answers for backend based on question type
+        const formattedAnswers = questions.map(question => {
+            const userAnswer = userAnswers[question._id];
+            
+            // Start with a base answer object
+            const baseAnswer = {
+                questionId: question._id,
+                isCorrect: userAnswers[question._id] === question.correctOption || 
+                           (question.questionType === 'short-answer' && 
+                            userAnswers[question._id]?.toLowerCase().trim() === question.shortAnswer?.toLowerCase().trim())
+            };
+
+            // Conditionally add the correct answer field based on question type
+            if (question.questionType === 'multiple-choice' || question.questionType === 'true/false') {
+                return {
+                    ...baseAnswer,
+                    selectedOption: userAnswer
+                };
+            } else if (question.questionType === 'short-answer') {
+                return {
+                    ...baseAnswer,
+                    selectedAnswerText: userAnswer
+                };
+            }
+            
+            return baseAnswer;
+        });
+
+        const response = await fetch(`${BACKEND_URL}/api/quiz-history/attempts`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}` 
+            },
+            body: JSON.stringify({
+                userId,
+                quizId: quiz._id,
+                score,
+                totalQuestions: questions.length,
+                correctAnswers,
+                timeSpent: Math.floor(timeSpent), // timeSpent is already in seconds from your timer
+                answers: formattedAnswers
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to save quiz attempt');
+        }
+
+        const result = await response.json();
+        console.log('Quiz attempt saved:', result);
+        return result.attempt._id;
+    } catch (error) {
+        console.error('Error saving quiz attempt:', error);
+        throw error;
+    }
+};
+
+
 
 
   // Calculate results

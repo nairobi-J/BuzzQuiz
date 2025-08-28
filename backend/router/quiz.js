@@ -9,7 +9,7 @@ router.post('/create',verifyToken, checkRole(['admin','teacher']), controller.cr
 router.get('/all', controller.getQuizzes);
 router.get('/:id', controller.getQuizById);
 router.get('/course/:id', controller.getQuizByCourseId);
-router.put('/:id',verifyToken,checkRole(['admin', 'teacher']), checkQuizOwnership, controller.updateQuiz);
+router.put('/:id',verifyToken,checkRole(['admin','teacher']), checkQuizOwnership, controller.updateQuiz);
 router.delete('/:id',verifyToken, checkRole(['admin', 'teacher']),checkQuizOwnership, controller.deleteQuiz);
 
 

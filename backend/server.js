@@ -14,6 +14,10 @@ import quiz from './router/quiz.js';
 import response from './router/response.js';
 import explanation from './router/explanation.js';
 
+import quizHistoryRoutes from './router/quizHistory.js';
+import quizStatsRoutes from './router/quizStats.js';
+import aiRecommendationRoutes from './router/aiRecommendation.js';
+
 
 dotenv.config();
 
@@ -38,6 +42,9 @@ app.use('/api/options', option);
 app.use('/api/quiz', quiz);
 app.use('/api/response', response);
 app.use('/api/explanation', explanation)
+app.use('/api/quiz-history', quizHistoryRoutes);
+app.use('/api/quiz-stats', quizStatsRoutes);
+app.use('/api/ai', aiRecommendationRoutes);
 
 
 //another work!
