@@ -197,9 +197,8 @@ const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent:
     try {
 
 
-        if (typeof window === 'undefined') {
-            console.log('Running on server - localStorage not available');
-            throw new Error('Cannot access localStorage on server');
+       if (typeof window === 'undefined') {
+            return; // Exit if running on server
         }
         const token = localStorage.getItem('token');
         
