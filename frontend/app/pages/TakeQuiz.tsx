@@ -197,8 +197,8 @@ const saveQuizAttempt = async (score: number, correctAnswers: number, timeSpent:
     try {
         const token = localStorage.getItem('token');
         const userId = localStorage.getItem('userId');
-        //console.log(token);
-
+        console.log(token, userId);
+        
         if (!token || !userId) {
             throw new Error('Authentication required. Please log in again.');
         }
